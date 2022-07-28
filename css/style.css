@@ -1,0 +1,69 @@
+.navHeader, .skills {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bg-dark {
+    background-color: #1c1c1c!important;
+}
+
+.mainBg {
+    background-image: url(../imgs/mainbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-justify {
+    text-align: justify!important;
+}
+
+.mainInfos {
+    padding: 10rem 0 10rem 0!important;
+}
+
+.textShadow {
+    text-shadow: 1px 1px 5px black;
+}
+
+.mainBg, footer, body > section:nth-child(odd) {
+    box-shadow: 0 0 2rem black;
+}
+
+@media screen and (max-width: 990px) {
+    .headerNavbar {
+        flex-direction: flex;
+    }
+    .sectionWithImg {
+        flex-direction: column;
+    }
+    .footerLinks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem!important;
+    }
+    .titleResponsive {
+        font-size: 6vw!important;
+    }
+    .subtitleResponsive {
+        font-size: 5vw!important;
+    }
+    .textResponsive {
+        font-size: 4vw!important;
+    }
+    
+    .infoBtn {
+        align-self: center!important;
+    }
+    .infoContainer {
+        margin: 1rem 0 1rem 0!important;
+    }
+    .mainInfos {
+        padding: 5rem 0 5rem 0!important;
+    }
+    .contactsInfo {
+        flex-direction: column;
+
+    }
+    
+}
